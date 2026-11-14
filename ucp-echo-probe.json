@@ -1,0 +1,23 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "ECHO_MARKER_TOPLEVEL": "ECHO-7781-UCP-BLOCK",
+    "services": { "dev.ucp.shopping": [] },
+    "payment_handlers": [],
+    "capabilities": {
+      "dev.ucp.shopping.cart": [
+        { "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/cart/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/cart.json",
+          "ECHO_MARKER_CAP": "ECHO-7781-INSIDE-CAPABILITY" }
+      ],
+      "dev.ucp.shopping.checkout": [
+        { "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/checkout/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/checkout.json" }
+      ]
+    }
+  },
+  "ECHO_MARKER_ROOT": "ECHO-7781-ROOT-OF-DOCUMENT",
+  "arbitrary_block": { "nested": { "deep": "ECHO-7781-DEEPLY-NESTED" } }
+}
